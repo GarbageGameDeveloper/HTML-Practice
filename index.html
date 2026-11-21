@@ -10,11 +10,16 @@
 				color: #FFFFFF; 
 				font-size: 12px;
 				font-familty: Arial, Helvetica, sans-serif;
-			}
-			div {
+
 				max-width: 600px;
 				margin: auto;
 			}
+			div 
+			{
+				
+			}
+			
+			/* PHOTO GRID */
 			div .centered_image_grid 
 			{
 				display: grid;
@@ -24,19 +29,34 @@
 			{
 				padding:5px;
 			}
+
+			/* CENTERED TEXT */
+			.centered_text
+			{
+				display: flex;
+				justify-content: center;	/* Horizontally alligned */
+				align-items: center;		/* Vertically alligned */
+				text-align: center;			/* Aligns text inside box  */
+			}
+			
 		</style>
 	</head>
 
 	
 	<body>
-		<div>
+		<div class="centered_text">
 			<br><br><br><br><br><br><br> <!-- 7 breaks to give me space -->
+			<h1>MISSING PERSON : BRAYDEN MAURIELLO</h1>
+		</div>
+		
+		<div>
+			
 			Words n shit, maybe we centered? Who knows
 			<div class="centered_image_grid">
 				<div class=".image"><img src="https://GarbageGameDeveloper.github.io/HTML-Practice/images/penguin.jpg" width="190" height="190"></div>
 				<div class=".image"><img src="https://GarbageGameDeveloper.github.io/HTML-Practice/images/penguin.jpg" width="190" height="190"></div>	
 				<div class=".image"><img src="https://GarbageGameDeveloper.github.io/HTML-Practice/images/penguin.jpg" width="190" height="190"></div>
-				<div class=".image"><img src="https://GarbageGameDeveloper.github.io/HTML-Practice/images/penguin.jpg" width="190" height="190"></div>
+				<div class=".image"><br><img src="https://GarbageGameDeveloper.github.io/HTML-Practice/images/penguin.jpg" width="190" height="190"></div>
 				<div class=".image"><img src="https://GarbageGameDeveloper.github.io/HTML-Practice/images/penguin.jpg" width="190" height="190"></div>
 				<div class=".image"><img src="https://GarbageGameDeveloper.github.io/HTML-Practice/images/penguin.jpg" width="190" height="190"></div>
 
@@ -58,7 +78,7 @@
 </html>
 
 
-<!--<h1>Grid Example</h1>
+<!--
 
 <p>Align three DIV elements side by side.</p>
 
