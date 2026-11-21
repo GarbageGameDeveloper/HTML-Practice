@@ -11,20 +11,29 @@
 				font-size: 12px;
 				font-familty: Arial, Helvetica, sans-serif;
 			}
-			.content {
-			  max-width: 600px;
-			  margin: auto;
+			div {
+				max-width: 600px;
+				margin: auto;
 			}
 			.center 
 			{
 				
-			}	
+			}
+			.container 
+			{
+				display: grid;
+				grid-template-columns: 1fr 1fr 1fr;
+			}
+			.container div 
+			{
+				padding:2px;
+			}
 		</style>
 	</head>
 
 	
 	<body>
-		<div class="content">
+		<div>
 			Words n shit, maybe we centered? Who knows
 			<!-- Page content -->
 			<img src="https://GarbageGameDeveloper.github.io/HTML-Practice/images/penguin.jpg" width="600" height="600">
@@ -39,3 +48,33 @@
 		
 	</body>
 </html>
+
+
+<!--<h1>Grid Example</h1>
+
+<p>Align three DIV elements side by side.</p>
+
+<div class="container">
+  <div style="background-color:#FFF4A3;">
+    <h2>London</h2>
+    <p>London is the capital city of England.</p>
+  </div>
+  
+  <div></div>
+  
+  <div style="background-color:#FFC0C7;">
+    <h2>Oslo</h2>
+    <p>Oslo is the capital city of Norway.</p>
+  </div>
+  
+  <div></div>
+  
+  <div style="background-color:#D9EEE1;">
+    <h2>Rome</h2>
+    <p>Rome is the capital city of Italy.</p>
+  </div>
+
+</div>
+
+</body>
+-->
