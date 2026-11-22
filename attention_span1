@@ -1,1 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
 
+		
+		<!-- STYLES -->
+		<style>
+			body
+			{
+				background-color: #000000;
+				color: #FFFFFF; 
+				font-size: 24px;
+				font-familty: Arial, Helvetica, sans-serif;
+
+				max-width: 600px;
+				margin: auto;
+			}
+			
+			div {}
+
+			/* PHOTO GRID */
+			div .centered_image_grid 
+			{
+				display: grid;
+				grid-template-columns: 1fr 1fr 1fr;
+			}
+			div .centered_image_grid .image
+			{
+				padding:5px;
+			}
+
+			/* CENTERED TEXT */
+			.centered_text
+			{
+				justify-content: center;	/* Horizontally alligned */
+				align-items: center;		/* Vertically alligned */
+				text-align: center;
+
+				font-size: 18px;
+			}
+			.centered_text h1 
+			{
+				padding-top: 40px;
+				padding-bottom: 0px;
+				margin: 0px;
+
+				color: #FF0000; 
+			    font-size: 60px;
+			}
+			.centered_text h2 
+			{
+				padding-top: 0px;
+				padding-bottom: 0px;
+				margin: 0px;
+				
+			    font-size: 44px;
+			}
+			
+		</style>
+	</head>
+
+
+
+	
+	
+	<body>
+		<div class="centered_text">
+			<h1><u>MISSING PERSON</u></h1>
+			<h2>BRAYDEN MAURIELLO</h2>
+		</div>
+		
+		<div>
+			<div class="centered_image_grid">
+				<div class=".image"><img src="images/Image 3.jpg" width="195" height="195"></div>
+				<div class=".image"><img src="images/Image 1.jpg" width="195" height="195"></div>	
+				<div class=".image"><img src="images/Image 6.jpg" width="195" height="195"></div>
+				<div class=".image"><img src="images/Image 4.jpg" width="195" height="195"></div>
+				<div class=".image"><img src="images/Image 2.jpg" width="195" height="195"></div>
+				<div class=".image"><img src="images/Image 5.jpg" width="195" height="195"></div>
+			</div>
+
+			<div class="centered_text">
+				Brayden James Mauriello is a 5’ 8” 18 year old white male with brown hair and brown eyes. 
+				His disappearance was noticed March 18th, 2026. 
+				He was last seen in Lucas Texas, but by now he could’ve crossed the state lines or even left the country. 
+				He’s not a very social person but he’s smart enough to know when someone’s lying. 
+				We don’t know his motive for disappearing, but we watched him slowly lose his joy in the months leading to his disappearance. 
+				We’re afraid of what he’ll do to himself. 
+				There are no confirmed sightings that could give us an idea of where he is or has been. 
+				If you see him, please reach out to us.
+				<br>
+				<br>Jordan and Raema Mauriello
+				<br>We miss you bud
+			</div>
+		
+			<br><br>
+
+			<div class="centered_text">
+				Too hard to read? Maybe you're struggling to pay <b>attention</b>.
+				<br><a href="https://www.moma.org/">This'll help</a>
+				<br><p style="color: #040404;">you animal</p>
+			</div>
+		</div>
+
+		
+		
+	</body>
+
+
+	
+</html>
