@@ -1,1 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		
+		<!-- STYLES -->
+		<style>
+			body
+			{
+				background-image: url("images/BackgroundRepeat.jpg");
+				background-repeat: repeat;
+				
+				color: #FFFFFF; 
+				font-size: 24px;
+				font-familty: Arial, Helvetica, sans-serif;
+
+				max-width: 600px;
+				margin: auto;
+			}
+			
+			div {}
+
+			/* PHOTO GRID */
+			div .centered_image_grid 
+			{
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+			}
+			div .centered_image_grid .image
+			{
+				padding:10px;
+			}
+
+			/* CENTERED TEXT */
+			.centered_text
+			{
+				justify-content: center;	/* Horizontally alligned */
+				align-items: center;		/* Vertically alligned */
+				text-align: center;
+
+				font-size: 24px;
+			}
+			.centered_text h1 
+			{
+				padding-top: 40px;
+				padding-bottom: 0px;
+				margin: 0px;
+
+				color: #FF0000; 
+			    font-size: 60px;
+			}
+			.centered_text h2 
+			{
+				padding-top: 0px;
+				padding-bottom: 0px;
+				margin: 0px;
+				
+			    font-size: 44px;
+			}
+
+			/* GIFS */
+			.left_gif 
+			{
+				position: fixed;
+				top: 50%; left: 50%;	/* centers the box */
+				transform: translate(-510px,-250px);
+				width: 200px; height: 500px;
+				margin: auto;
+			}
+
+			.right_gif 
+			{
+				position: fixed;
+				top: 50%; left: 50%;	/* centers the box */
+				transform: translate(310px,-250px);
+				width: 200px; height: 500px;
+				margin: auto;
+			}
+			
+		</style>
+	</head>
+
+
+
+	
+	
+	<body>
+		<div class="centered_text">
+			<h1><u>MISSING PERSON</u></h1>
+			<h2>BRAYDEN MAURIELLO</h2>
+		</div>
+		
+		<div>
+			<div class="centered_image_grid">
+				<div class=".image"><img src="images/Image 4.jpg" width="295" height="295"></div>	
+				<div class=".image"><img src="images/Image 1.jpg" width="295" height="295"></div>
+			</div>
+
+			<div class="centered_text">
+				5’ 8” | 18 y/o | white | male | brown hair | brown eyes 
+				<br>If you see him, reach out to us
+				<br>
+				<br>Jordan and Raema Mauriello
+			</div>
+      
+			<br><br><br><br>
+
+			<div class="centered_text">
+				Seriouslly? Can you still not pay <b>attention</b>?
+				<br><a href="https://www.moma.org/">Fine</a><br><br>
+			</div>
+		</div>
+
+		<div class="left_gif"><img src="video/subway_surfers.gif" width="200" height="433"></div>
+		<div class="right_gif"><img src="video/clash_royale.gif" width="200" height="433"></div>
+		
+	</body>
+
+
+	
+</html>
 
