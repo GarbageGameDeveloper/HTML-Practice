@@ -34,20 +34,22 @@
 			}
 
 			/* CENTERED TEXT */
-			.centered_text
+			div .sub_div 
 			{
 				position: relative;
 				top: 30%;
-				
 				background-color:#000000;
-				
+			}
+			
+			div .sub_div .centered_text
+			{	
 				justify-content: center;	/* Horizontally alligned */
 				align-items: center;		/* Vertically alligned */
 				text-align: center;
 
 				font-size: 24px;
 			}
-			.centered_text h1 
+			div .sub_div .centered_text h1 
 			{
 				padding-top: 24px;
 				padding-bottom: 0px;
@@ -56,7 +58,7 @@
 				color: #FF0000;
 			    font-size: 60px;
 			}
-			.centered_text h2 
+			div .sub_div .centered_text h2 
 			{
 				padding-top: 0px;
 				padding-bottom: 0px;
@@ -89,12 +91,14 @@
 	
 	
 	<body>
-		<div class="centered_text">
-			<h1><u>MISSING PERSON</u></h1>
-			<h2>BRAYDEN MAURIELLO</h2>
-			5’ 8” | 18 y/o | white | male | brown hair | brown eyes 
-			<br>If you see him reach out - Jordan and Raema Mauriello
-			<br>
+		<div class="sub_div">
+			<div class="centered_text">
+				<h1><u>MISSING PERSON</u></h1>
+				<h2>BRAYDEN MAURIELLO</h2>
+				5’ 8” | 18 y/o | white | male | brown hair | brown eyes 
+				<br>If you see him reach out - Jordan and Raema Mauriello
+				<br>
+			</div>
 		</div>
 
 		<div class="left_gif"><img src="video/subway_surfers.gif" width="200" height="433"><img src="video/clash_royale.gif" width="200" height="433"></div>
