@@ -1,1 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
 
+		
+		<!-- STYLES -->
+		<style>
+			body
+			{
+				background-color: #000000;
+				
+				background-image: url("images/BackgroundRepeat.jpg");
+				background-repeat: repeat;
+				
+				color: #FFFFFF; 
+				font-size: 24px;
+				font-familty: Arial, Helvetica, sans-serif;
+
+				max-width: 600px;
+				margin: auto;
+			}
+
+			/* PHOTO GRID */
+			div .centered_image_grid 
+			{
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+			}
+			div .centered_image_grid .image
+			{
+				padding:10px;
+			}
+
+			/* CENTERED TEXT */
+			.sub_div 
+			{
+				position: relative;
+				top: 300px;
+				background-color: #000000;
+			}
+			.sub_div .centered_text
+			{	
+				justify-content: center;	/* Horizontally alligned */
+				align-items: center;		/* Vertically alligned */
+				text-align: center;
+
+				font-size: 24px;
+			}
+			.sub_div .centered_text h1 
+			{
+				padding-top: 24px;
+				padding-bottom: 0px;
+				margin: 0px;
+
+				color: #FF0000;
+			    font-size: 60px;
+			}
+			.sub_div .centered_text h2 
+			{
+				padding-top: 0px;
+				padding-bottom: 0px;
+				margin: 0px;
+				
+				font-size: 44px;
+			}
+
+			/* GIFS */
+			.left_gif 
+			{
+				position: fixed;
+				top: 50%; left: 50%;	/* centers the box */
+				transform: translate(-710px,-250px);
+				width: 400px; height: 500px;
+				margin: auto;
+			}
+			.right_gif 
+			{
+				position: fixed;
+				top: 50%; left: 50%;	/* centers the box */
+				transform: translate(310px,-250px);
+				width: 400px; height: 500px;
+				margin: auto;
+			}
+
+			.hidden_text
+			{
+				position: fixed;
+				bottom: 1px; right: 1px;
+
+				font-size: 12px;
+			}
+			
+		</style>
+	</head>
+	
+	
+	
+	<body>
+		<div class="sub_div">
+			<div class="centered_text">
+				<h1><u>MISSING PERSON</u></h1>
+				<h2>BRAYDEN MAURIELLO</h2>
+				5’ 8” | 18 y/o | white | male | brown hair | brown eyes 
+				<br>If you see him reach out - Jordan and Raema Mauriello
+				<p style=color:#000000;>.</p>
+			</div>
+		</div>
+
+		<div class="left_gif"><img src="video/subway_surfers.gif" width="200" height="433"><img src="video/clash_royale.gif" width="200" height="433"></div>
+		<div class="right_gif"><img src="video/subway_surfers.gif" width="200" height="433"><img src="video/clash_royale.gif" width="200" height="433"></div>
+
+		<div class="hidden_text"><a href="chaos2.html">Can anyone find me with all this noise?</a></div>
+		
+	</body>
+
+
+	
+</html>
